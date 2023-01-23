@@ -4,8 +4,8 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
-    "start": "pm2 start pm2.config.js",
-    "stop": "pm2 delete pm2.config.js",
+    "start": "pm2 start ecosystem.config.js",
+    "stop": "pm2 delete ecosystem.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -22,7 +22,7 @@
     "handlebars": "^4.7.7",
     "joi": "^17.7.0",
     "mime-types": "^2.1.35",
-    "tonstorage-cli": "github:ndatg/tonstorage-cli"
+    "tonstorage-cli": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "8.22.0",
