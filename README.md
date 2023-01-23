@@ -25,8 +25,8 @@ npm install pm2 -g
 ___
 ### Install the app
 ```bash
-git clone https://github.com/ton-blockchain/tonstorage-gateway.git
-cd tonstorage-gateway
+git clone https://github.com/ton-blockchain/storage-gateway.git
+cd storage-gateway
 npm install
 ```
 
